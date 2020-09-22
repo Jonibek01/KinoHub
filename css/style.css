@@ -83,6 +83,24 @@ header span {
     display: block;
     animation: slideleft .3s ease;
 }
+.toggle {
+    cursor: pointer;
+    display: none;
+}
+.toggle, .mini-line {
+    border: 1px solid black;
+    width: 30px;
+    height: 5px;
+    border-radius: 3px;
+    margin-top: 2px;
+    background-color: white;
+}
+@media only screen and (max-width: 700px) {
+    .toggle {
+        display: block;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
 
 @keyframes slideup {
     0% {
