@@ -248,6 +248,23 @@ header span {
     height: 500px;
 
 }
+#main-section .container {
+    animation-name: img-cont;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+@keyframes img-cont {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+
+    }
+    100% {
+        opacity: 1;
+        transform: 0;
+    }
+}
 #main-section .col-2 {
     float: left;
     width: 16.6%;
