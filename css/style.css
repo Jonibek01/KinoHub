@@ -563,12 +563,13 @@ header span {
 footer {
     height: 500px;
     width: 100%;
-    background-color: #333;
+    background-color: #222;
 }
 footer .container {
     width: 90%;
     margin: auto;
     position: relative;
+    padding: 50px;
 }
 footer .container .col-md-4 {
     width: 33.3%;
@@ -590,6 +591,7 @@ footer .container .col-md-4 .logo {
     cursor: pointer;
 }
 footer .container .col-md-4 h4 {
+    margin-top: 0;
     font-weight: 100;
     font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif;;
 }
@@ -609,6 +611,81 @@ footer .container .col-md-4 .social-icons img:active {
     width: 33.3%;
     
 }
-footer .container .col-md-4 .widget-titles {
+footer .container .col-md-4 .widget-ul {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+
+}
+footer .container .col-md-4 .widget-title h2 {
+    margin-bottom: 0px;
+}
+
+footer .container .col-md-4 .widget-ul .widget-list {
+    display: block;
+    float: left;
+    line-height: 35px;
+    width: 50%;
+}
+footer .container .col-md-4 .widget-ul .widget-list a {
+    text-decoration: none;
+    color: white;
+}
+footer .container .col-md-4 .widget-ul .widget-list a:hover {
+    color: #999;
+}
+footer .container .col-md-4 .widget-ul .widget-list a:active {
+    color: rgb(212, 65, 65);
+}
+
+.super-line2 {
+    margin-top: 0;
+    background-color: #ff5e00;
+    height: 2px;
+    border: none;
+}
+footer .container .col-md-4 .widge-input {
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 17px;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    background-color: #333;
+    border: 1px solid rgba(192, 192, 192, 0.397);
+    display: inline-block;
+    color: #fff;
+
+}
+footer .container .col-md-4 .input {
+    display: inline-block;
     
+}
+footer .container .col-md-4 .input-img {
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgba(192, 192, 192, 0.397);
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+}
+footer .container .col-md-4 .input-img img{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #ff5e00;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+footer .container .col-md-4 .input-img img:active {
+    transform: translateX(2px);
+    
+    
+}
+.super-line3 {
+    margin-top: 300px;
+    width: 85%;
 }
