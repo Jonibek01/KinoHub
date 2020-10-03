@@ -92,6 +92,20 @@ header span {
     animation: slideleft .3s ease;
 }
 
+.menu li:last-child {
+    position: relative;
+}
+.menu li:last-child a {
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+.menu li:last-child .login-img {
+    position: absolute;
+    padding-left: 5px;
+    left: 0;
+    top: 10px;
+    
+}
 
 /* .toggle {
     background-color: white;
@@ -137,6 +151,7 @@ header span {
      
     }
 }
+
 #showcase .image{
 
     position: relative;
@@ -633,6 +648,7 @@ footer .container .col-md-4 .widget-ul .widget-list a {
 }
 footer .container .col-md-4 .widget-ul .widget-list a:hover {
     color: #999;
+    transition: .3s;
 }
 footer .container .col-md-4 .widget-ul .widget-list a:active {
     color: rgb(212, 65, 65);
@@ -685,6 +701,8 @@ footer .container .col-md-4 .input-img img:active {
     
     
 }
+
+
 .super-line3 {
     margin-top: 300px;
     width: 85%;
@@ -722,7 +740,9 @@ footer .copy-footer ul li a {
 footer .copy-footer ul .copy-text {
     position: absolute;
     right: -470px;
+    color: #999;
 }
 footer .copy-footer ul li a:hover, .copy-text a:hover {
-    color: red;
+    color: rgb(185, 11, 11);
+    transition: .3s;
 }
